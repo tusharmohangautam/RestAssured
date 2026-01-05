@@ -2,7 +2,7 @@ package day1;
 
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
 
@@ -22,7 +22,7 @@ public class HTTPRequests {
 		
 		
 		given()
-		
+		//.header("User-Agent", "PostmanRuntime/7.32.2")
 		
 		
 		.when()              // it's a part of given method()
@@ -40,7 +40,7 @@ public class HTTPRequests {
 		
 		
 		
-		@Test(priority=2)
+	//	@Test(priority=2)
 		void createUser()
 		{
 			
@@ -54,6 +54,7 @@ public class HTTPRequests {
 			
 		id=	given()    // remeber what kind of data we are sending  i.e. json  etc....
 			
+		//	.header("User-Agent", "PostmanRuntime/7.32.2")
 			  .contentType("application/json")
 			  .body(data)
 			  
@@ -82,7 +83,7 @@ public class HTTPRequests {
 		
 	
 		
-		@Test(priority=3, dependsOnMethods={"createUser"})
+//		@Test(priority=3, dependsOnMethods={"createUser"})
 		void updateUser()
 		{
 			
@@ -94,6 +95,7 @@ public class HTTPRequests {
 			
 		   given()   
 			
+		//   .header("User-Agent", "PostmanRuntime/7.32.2")   
 			  .contentType("application/json")
 			  .body(data)
 			  
@@ -114,12 +116,12 @@ public class HTTPRequests {
 		}
 		
 		
-		@Test(priority=4)
+//		@Test(priority=4)
 		void deleteUser()
 		{
 			
 			given()   
-			
+		//	.header("User-Agent", "PostmanRuntime/7.32.2")
 			 
 			
 			.when()
