@@ -1,13 +1,14 @@
-package day1;
+package day1;          // Website : https://jsonplaceholder.typicode.com/
 
 import static io.restassured.RestAssured.given;
+
 import static org.hamcrest.Matchers.equalTo;
 
 import java.util.HashMap;
 
 import org.testng.annotations.Test;
 
-public class GetRequest {
+public class HTTPMethods {
 
 	
 	int id;
