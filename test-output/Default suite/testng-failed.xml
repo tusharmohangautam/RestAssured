@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4.JSONResponse_SearchingSpecificElement">
+      <class name="day4.SpecificElementSearcJSON">
         <methods>
-          <include name="testJSONResponseBody"/>
+          <include name="testSpecificELement"/>
         </methods>
-      </class> <!-- day4.JSONResponse_SearchingSpecificElement -->
+      </class> <!-- day4.SpecificElementSearcJSON -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

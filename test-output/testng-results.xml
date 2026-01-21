@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-19T00:00:18 IST" name="Default suite" finished-at="2026-01-19T00:00:32 IST" duration-ms="13553">
+  <suite started-at="2026-01-22T00:38:15 IST" name="Default suite" finished-at="2026-01-22T00:38:19 IST" duration-ms="4285">
     <groups>
     </groups>
-    <test started-at="2026-01-19T00:00:18 IST" name="Default test" finished-at="2026-01-19T00:00:32 IST" duration-ms="13553">
-      <class name="day4.JSONResponse_SearchingSpecificElement">
-        <test-method signature="testJSONResponseBody()[pri:1, instance:day4.JSONResponse_SearchingSpecificElement@20140db9]" started-at="2026-01-19T00:00:18 IST" name="testJSONResponseBody" finished-at="2026-01-19T00:00:32 IST" duration-ms="13456" status="PASS">
+    <test started-at="2026-01-22T00:38:15 IST" name="Default test" finished-at="2026-01-22T00:38:19 IST" duration-ms="4285">
+      <class name="day4.SpecificElementSearcJSON">
+        <test-method signature="testSpecificELement()[pri:0, instance:day4.SpecificElementSearcJSON@20140db9]" started-at="2026-01-22T00:38:15 IST" name="testSpecificELement" finished-at="2026-01-22T00:38:19 IST" duration-ms="4185" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJSONResponseBody -->
-      </class> <!-- day4.JSONResponse_SearchingSpecificElement -->
+        </test-method> <!-- testSpecificELement -->
+      </class> <!-- day4.SpecificElementSearcJSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
