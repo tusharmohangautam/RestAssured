@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-22T00:38:15 IST" name="Default suite" finished-at="2026-01-22T00:38:19 IST" duration-ms="4285">
+  <suite started-at="2026-01-23T00:12:21 IST" name="Default suite" finished-at="2026-01-23T00:12:27 IST" duration-ms="5298">
     <groups>
     </groups>
-    <test started-at="2026-01-22T00:38:15 IST" name="Default test" finished-at="2026-01-22T00:38:19 IST" duration-ms="4285">
-      <class name="day4.SpecificElementSearcJSON">
-        <test-method signature="testSpecificELement()[pri:0, instance:day4.SpecificElementSearcJSON@20140db9]" started-at="2026-01-22T00:38:15 IST" name="testSpecificELement" finished-at="2026-01-22T00:38:19 IST" duration-ms="4185" status="PASS">
+    <test started-at="2026-01-23T00:12:21 IST" name="Default test" finished-at="2026-01-23T00:12:27 IST" duration-ms="5298">
+      <class name="day5.SearchSpecificElement_XMLResponse_3">
+        <test-method signature="textSMLResponse()[pri:0, instance:day5.SearchSpecificElement_XMLResponse_3@20140db9]" started-at="2026-01-23T00:12:21 IST" name="textSMLResponse" finished-at="2026-01-23T00:12:27 IST" duration-ms="5211" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSpecificELement -->
-      </class> <!-- day4.SpecificElementSearcJSON -->
+        </test-method> <!-- textSMLResponse -->
+      </class> <!-- day5.SearchSpecificElement_XMLResponse_3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
