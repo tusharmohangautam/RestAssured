@@ -43,7 +43,7 @@ public class HTTPMethods {
 		 
 		 
 		 .when()
-		  .post("https://jsonplaceholder.typicode.com/posts")
+		  .post("https://jsonplaceholder.typicode.com/posts/")
 		  .jsonPath().getInt("id");
 		  
 		 

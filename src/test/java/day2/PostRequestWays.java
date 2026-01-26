@@ -1,10 +1,8 @@
 package day2;
 
-public class PostRequestWays {
 
-	
-	
-	
+class PostRequestWays1 {
+
 	
 	
 	
