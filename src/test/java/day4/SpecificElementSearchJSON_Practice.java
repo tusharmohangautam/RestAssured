@@ -2,13 +2,14 @@ package day4;
 
 import static io.restassured.RestAssured.given;
 
+
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
-public class SpecificElementSearcJSON_Practice
+public class SpecificElementSearchJSON_Practice
 {
 
 	@Test

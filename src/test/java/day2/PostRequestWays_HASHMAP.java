@@ -2,6 +2,7 @@ package day2;
 
 import static io.restassured.RestAssured.given;
 
+
 import java.util.HashMap;
 import static org.hamcrest.Matchers.equalTo;
 import org.testng.annotations.Test;
