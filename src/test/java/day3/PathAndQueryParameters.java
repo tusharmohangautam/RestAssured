@@ -30,7 +30,7 @@ public class PathAndQueryParameters {
 		   // Query Parameter we no need to mention in GET url , as it will go by default 
 		 
 		 .then()
-		  .statusCode(403);
+		  .statusCode(401);
 		  
 		
 	}

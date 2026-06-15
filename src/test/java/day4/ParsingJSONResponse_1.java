@@ -30,7 +30,7 @@ which comes in response.
  * {
  *    This area/element between curly braces is a json object.
  * }
-End of an Array -> [
+End of an Array -> ]
 
 */
 

@@ -14,7 +14,7 @@ public class JSONResponse1_Practice
 	{
 		
 	given()
-	 .contentType("application/json")
+	
 	 
 	
 	.when()

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
-// We will not XML dependencies in POM>x l as these will come by default with REST ASSURED
+// We will not add XML dependencies in POM.xml as these will come by default with REST ASSURED
 
 public class ParsingXMLResponse_2 {
 	
